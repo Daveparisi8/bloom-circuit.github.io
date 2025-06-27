@@ -4,7 +4,7 @@ body, html {
   padding: 0;
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  background-color: #c6e4d9
+  background-color: #CAE5DC;
 }
 
 #container {
@@ -39,7 +39,7 @@ p {
 .btn {
   padding: 0.8em 1.8em;
   background-color: white;
-  color: #4caf50;
+  color: #1d211f;
   text-decoration: none;
   font-weight: bold;
   border-radius: 25px;
@@ -48,7 +48,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #388e3c;
+  background-color: #99b292;
   color: white;
   cursor: pointer;
 }
