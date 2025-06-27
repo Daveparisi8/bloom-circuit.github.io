@@ -19,7 +19,6 @@ body, html {
   gap: 30px; /* adds vertical spacing between children */
 }
 
-/* Stack logo, heading, and paragraph */
 #top-content {
   display: flex;
   flex-direction: column;
