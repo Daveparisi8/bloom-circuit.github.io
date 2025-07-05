@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bloom-circuit.github.io/static/css/main.22c48524.css",
+    "main.js": "/bloom-circuit.github.io/static/js/main.552be87e.js",
+    "static/js/453.1f4198d0.chunk.js": "/bloom-circuit.github.io/static/js/453.1f4198d0.chunk.js",
+    "static/media/logo.jpg": "/bloom-circuit.github.io/static/media/logo.c10782b5dce412a7d32c.jpg",
+    "index.html": "/bloom-circuit.github.io/index.html",
+    "main.22c48524.css.map": "/bloom-circuit.github.io/static/css/main.22c48524.css.map",
+    "main.552be87e.js.map": "/bloom-circuit.github.io/static/js/main.552be87e.js.map",
+    "453.1f4198d0.chunk.js.map": "/bloom-circuit.github.io/static/js/453.1f4198d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22c48524.css",
+    "static/js/main.552be87e.js"
+  ]
+}
