@@ -1,4 +1,4 @@
-/* 
+
 body, html {
   margin: 0;
   padding: 0;
@@ -58,71 +58,4 @@ p {
   margin-bottom: 20px;
   border-radius: 8px; 
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-} */
-
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #c8d9c0;
-  color: #222;
-}
-header {
-  text-align: center;
-  padding: 2em 1em;
-}
-.logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 1em;
-}
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2em;
-  padding: 2em;
-}
-.product-card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-.product-card:hover {
-  transform: scale(1.03);
-}
-.product-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.product-info {
-  padding: 1em;
-  text-align: center;
-}
-.product-info h3 {
-  margin: 0.5em 0;
-}
-.product-info a {
-  display: inline-block;
-  padding: 0.5em 1em;
-  background-color: #7d9670;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 0.5em;
-}
-.product-info .coming-soon {
-  display: inline-block;
-  padding: 0.5em 1em;
-  background-color: #ccc;
-  color: #555;
-  border-radius: 5px;
-  margin-top: 0.5em;
-}
-footer {
-  text-align: center;
-  padding: 1em;
-  background-color: #b3c3a8;
-  margin-top: 2em;
 }
