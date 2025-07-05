@@ -1,10 +1,13 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
 .App-logo {
   height: 20vmin;
   pointer-events: none;
+  min-height: 20vmin;
 }
 
 .App-header {
@@ -38,8 +41,19 @@ body, html {
   font-family: 'Poppins', sans-serif;
 }
 
-p {
+#Main-landing-text {
   color: black;
-  font-size: 48px;
+  font-size: 18px;
   font-weight: bold;
+}
+
+#built-by {
+  color: black;
+  font-size: 12px;
+  font-style: italic;
+}
+
+#eBay-link {
+  font-weight: bold;
+  font-size: 12px;
 }
