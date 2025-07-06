@@ -1,0 +1,36 @@
+#flash-bar {
+  position: fixed;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2c2d31;
+  color: #fff;
+  z-index: 1000;
+}
+
+.flash-close {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.flash-close:hover,
+.flash-close:focus-visible {
+  opacity: 1;
+}
+
+html,
+body {
+  margin: 0;
+  padding-top: 32px;
+}
